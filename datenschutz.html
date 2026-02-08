@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Datenschutz — [Shopname]</title>
+  <meta name="description" content="Datenschutzerklärung von [Shopname]." />
+
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+
+<body>
+  <header>
+    <div class="nav">
+      <a class="brand" href="./index.html">
+        <div class="logo">D</div>
+        <div>
+          <b>[Shopname]</b>
+          <span>Döner • Rosenheim</span>
+        </div>
+      </a>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <section>
+      <div class="sectionHead">
+        <div>
+          <h2>Datenschutzerklärung</h2>
+          <p>Informationen zum Datenschutz gemäß DSGVO.</p>
+        </div>
+      </div>
+
+      <div class="card">
+        <h3>1. Verantwortlicher</h3>
+        <p>
+          [Shopname]<br>
+          [Straße Nr.]<br>
+          83022 Rosenheim
+        </p>
+
+        <h3 style="margin-top:24px;">2. Erhebung und Verarbeitung personenbezogener Daten</h3>
+        <p>
+          Beim Besuch dieser Website werden keine personenbezogenen Daten aktiv erhoben.
+          Es werden keine Kontaktformulare, Nutzerkonten oder Tracking-Tools eingesetzt.
+        </p>
+
+        <h3 style="margin-top:24px;">3. Server-Log-Dateien</h3>
+        <p>
+          Der Hosting-Anbieter (GitHub Pages) erhebt ggf. technische Zugriffsdaten
+          (z. B. IP-Adresse, Browsertyp, Zeitpunkt des Zugriffs) zur Sicherstellung
+          des technischen Betriebs. Auf diese Daten haben wir keinen direkten Zugriff.
+        </p>
+
+        <h3 style="margin-top:24px;">4. Kartenmaterial</h3>
+        <p>
+          Diese Website bindet Kartenmaterial von OpenStreetMap ein.
+          Beim Laden der Karte können Daten an Server von OpenStreetMap übertragen werden.
+        </p>
+
+        <h3 style="margin-top:24px;">5. Rechte der betroffenen Personen</h3>
+        <p>
+          Du hast das Recht auf Auskunft, Berichtigung, Löschung oder Einschränkung
+          der Verarbeitung deiner personenbezogenen Daten sowie ein Beschwerderecht
+          bei der zuständigen Aufsichtsbehörde.
+        </p>
+
+        <h3 style="margin-top:24px;">6. Kontakt</h3>
+        <p>
+          Bei Fragen zum Datenschutz erreichst du uns unter:<br>
+          E-Mail: info@[domain].de
+        </p>
+      </div>
+    </section>
+
+    <footer>
+      <div>© <span id="y"></span> [Shopname].</div>
+      <div class="footerLinks">
+        <a class="pill" href="./contact.html">Kontakt</a>
+      </div>
+    </footer>
+  </main>
+
+  <script>
+    document.getElementById("y").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
